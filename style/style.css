@@ -1,0 +1,129 @@
+@font-face {
+    font-family: AdobeInvisFont;
+    src: url(./fonts\ADOIF_.PFB.ttf);
+}
+html, body{
+    margin: 0%;
+    padding: 0%;
+    font-family: AdobeInvisFont Verdana;
+    font-size: 15px;
+}
+body{
+    background-image: url(../img/back.png);
+    background-blend-mode:  darken;
+    color: white;
+}
+.logo{
+    display: inline-block;
+}
+h1{
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.3em;
+}
+h1 span{
+    font-size: 0.7em;
+}
+.contact{
+    display: inline-block;
+    font-size: 1.3em;
+    text-align: right;
+    margin-left: 0;
+    float: right;
+}
+.main{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.conteiner div{
+    display: inline-block;
+}
+.conteiner__img2 {
+
+    width: 307px;
+}
+.conteiner__img6{
+    width: 307px;
+}
+.contact p{
+    margin-bottom: 0%;
+}
+.conteiner>div{
+    margin-top: 3.2em;
+}
+.conteiner__ft, .conteiner__st, .conteiner__aa, .conteiner__wt{
+    margin-left: 3.9em;
+
+}
+div img~p{
+    text-align: center;
+}
+div>p{
+    margin-bottom: 0%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #f26522;
+}
+h1>span{
+    padding: 0%;
+}
+.price{
+    background:#f26522;
+    width: 307px;
+    height: 63px;
+    display: none;
+    margin-top: 137px;
+    color: white
+}
+.conteiner__ST{
+    background-image: url(../img/Layer\ 21@1X.png);
+    width: 307px;
+    height: 200px;
+}
+.conteiner__st{
+    background-image: url(../img/Layer\ 22@1X.png);
+    width: 307px;
+    height: 200px;
+}
+.conteiner__ft{
+    background-image: url(../img/Layer\ 23@1X.png);
+    width: 307px;
+    height: 200px;
+}
+.conteiner__bn{
+    background-image: url(../img/dj.png);
+    width: 307px;
+    height: 200px;
+}
+.conteiner__aa{
+    background-image: url(../img/Layer\ 25@1X.png);
+    width: 307px;
+    height: 200px;
+    margin-top: 0%;
+}
+.conteiner__wt{
+    background-image: url(../img/Layer\ 26@1X.png);
+    width: 307px;
+    height: 200px;
+}
+.price p{
+    display: inline-block;
+    padding-left: 20px;
+
+}
+.cent{
+    font-size: 1.5rem;
+    padding-bottom: 0,7rem;
+}
+p.view{
+    padding-left: 10rem;
+    position: relative;
+}
